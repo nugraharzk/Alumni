@@ -23,7 +23,9 @@
 
 		public function getRow($nis)
 		{
-			return $this->db->where('nis',$nis)->get('alumni')->row();
+			$data = $this->db->where('nis',$nis)->get('alumni');
+
+			return $data;
 		}
 	}
 

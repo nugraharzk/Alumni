@@ -52,8 +52,6 @@
       </a>
     </div>
 
-    <?php $this->load->view('layout/foot3'); ?>
-
     <script type="text/javascript">
       $('.carousel').carousel({
         interval: 2000

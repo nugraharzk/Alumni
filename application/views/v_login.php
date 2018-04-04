@@ -45,6 +45,6 @@
 </div>
 <!-- /.login-box -->
 
-<?php $this->load->view('layout/foot2')?>
+<?php $this->load->view('layout/foot3')?>
 </body>
 </html>

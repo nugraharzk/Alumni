@@ -18,7 +18,6 @@ class Dashboard extends CI_Controller {
 	{	
 		$data['page_title'] = 'Dasbor';
 		$data['page_desc'] = 'Halaman dasbor';
-		$data['id'] = $this->session->userdata('user_id');
 		$data['page']       = $this->load->view('v_dashboard', '', true);
 
 		$this->load->view('v_base',$data);

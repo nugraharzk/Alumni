@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SISFO ASSET</title>
-  <script type="text/javascript" language="javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
+  <title>SISFO ALUMNI</title>
+  <script type="text/javascript" language="javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.12.4.js"></script>
   <script type="text/javascript" language="javascript" src="<?php echo base_url(); ?>assets/js/jquery.dataTables.min.js"></script>
   <script type="text/javascript" language="javascript" src="<?php echo base_url(); ?>assets/js/dataTables.bootstrap.js"></script>
+  <script type="text/javascript" language="javascript" src="<?php echo base_url(); ?>assets/js/Chart.js"></script>
+
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">

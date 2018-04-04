@@ -1,4 +1,4 @@
-<header class="navbar navbar-default" style="border: 1px solid #000;">
+<header class="navbar navbar-default">
     <div class="row">
       <div class="col-md-4" align="center">
         <div id="logo" class="pull-left">

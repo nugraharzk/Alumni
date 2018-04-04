@@ -93,7 +93,15 @@ class Auth extends CI_Controller {
 	{
 		$nis = $this->input->post('nis');
 
-		$data = $this->M_Alumni->getRow($nis);
+		if ($nis) {
+			$data['isSet'] = TRUE;
+			$data['alumni'] = $this->M_Alumni->getRow($nis)->row();
+		} else {
+			$data['isSet'] = FALSE;
+			$data['alumni'] = "Isi Kotak Dahulu !";
+		}
+
+		$this->load->view('v_regNis', $data);
 	}
 }
 
